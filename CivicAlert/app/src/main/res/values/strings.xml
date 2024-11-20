@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Civic Alert</string>
+    <string name="logo">logo</string>
+    <string name="logobtn">GET STARTED</string>
+    <string name="adminloginbtn">Admin Login</string>
+    <string name="userloginbtn">User Login</string>
+</resources>

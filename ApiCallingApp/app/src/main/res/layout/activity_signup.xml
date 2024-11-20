@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".Signup">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/car7"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        app:cardBackgroundColor="#078E81"
+        app:cardElevation="15dp"
+        android:layout_marginTop="0dp"
+        app:cardUseCompatPadding="true"
+        >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Log In"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/dancing"
+                    android:textAlignment="center"
+                    android:textSize="45dp"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="5dp"
+                    android:id="@+id/edtname"
+                    android:ems="12"
+                    android:hint="Enter your Name "
+                    android:fontFamily="@font/dancing"
+                    android:inputType="text"
+                    android:textColorHint="@color/white"
+                    android:textAlignment="center"
+                    android:background="@drawable/editstyle"/>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtaddress"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/editstyle"
+                    android:fontFamily="@font/dancing"
+                    android:ems="12"
+                    android:hint="Enter your Address"
+                    android:inputType="text"
+                    android:padding="5dp"
+                    android:textColorHint="@color/white"
+                    android:textAlignment="center" />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/dancing"
+                    android:layout_marginTop="10dp"
+                    android:padding="5dp"
+                    android:background="@drawable/editstyle"
+                    android:id="@+id/edtemail"
+                    android:ems="12"
+                    android:hint="Enter your Email "
+                    android:inputType="text"
+                    android:textColorHint="@color/white"
+                    android:textAlignment="center"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnsubmit"
+                    android:text="submit"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/dancing"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    />
+
+            </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

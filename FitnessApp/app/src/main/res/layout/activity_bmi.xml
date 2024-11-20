@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/white"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_bmi"
+        android:textColor="@color/white"
+        android:layout_marginBottom="40dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:hint="@string/hint_weight"
+        android:textColorHint="@color/black"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"
+        android:id="@+id/weight"
+        android:layout_margin="20dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black"
+        android:ems="12"
+        android:hint="@string/hint_height"
+
+        android:backgroundTint="@color/black"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:id="@+id/height"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_submit"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:text="Submit"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/result"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:layout_marginTop="40dp"
+        android:textSize="25sp"/>
+
+</LinearLayout>

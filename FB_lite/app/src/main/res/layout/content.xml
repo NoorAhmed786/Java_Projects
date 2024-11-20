@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardUseCompatPadding="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="centerCrop"
+                android:background="@drawable/circular_image"
+                android:src="@drawable/noor"
+                android:id="@+id/userImage"
+                android:clipToOutline="true"
+                android:padding="2dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="noor"
+                    android:textSize="25dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/userName"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="description"
+                    android:id="@+id/userdesc"
+                    android:textSize="15dp"
+                    android:textStyle="italic"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="100dp"
+                android:src="@drawable/baseline_linear_scale_24"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="98dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="good day"
+                android:textSize="17dp"
+                android:textColor="@color/black"
+                android:layout_margin="10dp"
+                android:textStyle="normal"
+                android:id="@+id/contentText"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="centerCrop"
+                android:id="@+id/contentPic"
+                android:src="@drawable/noor"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/baseline_thumb_up_off_alt_24"
+                    />
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="80dp"
+                    android:src="@drawable/baseline_message_24"/>
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="70dp"
+                    android:src="@drawable/baseline_share_24"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

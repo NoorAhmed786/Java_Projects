@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TodoListAdapter</string>
+    <string name="EmployeTask">Employee Task</string>
+    <string name="taskName">Task Name</string>
+    <string name="taskEmploye">Task Employee</string>
+    <string name="task">Task</string>
+    <string name="taskDate">Task Date</string>
+    <string name="taskDescription">Task Description</string>
+    <string name="btnPending">Pending Task</string>
+    <string name="btnComplete">Complete Task</string>
+</resources>

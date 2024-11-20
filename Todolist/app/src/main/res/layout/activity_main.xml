@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Admission"
+        style="@style/Base.Theme.Header"
+        android:textColor="@color/white"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+
+        android:background="#D3C5C5">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="12"
+            android:layout_gravity="center"
+            android:hint="Enter your Name"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="30dp"
+
+            android:id="@+id/edtname"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="12"
+            android:layout_gravity="center"
+            style="@style/Base.Theme.button"
+            android:id="@+id/btnapply"
+            android:textColor="@color/white"
+            android:layout_marginTop="40dp"
+            android:text="Apply"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:textColor="@color/white"
+
+        android:layout_gravity="center"
+        style="@style/Base.Theme.button"
+        android:id="@+id/btndetails"
+        android:text="Details"
+        />
+
+
+
+
+</LinearLayout>

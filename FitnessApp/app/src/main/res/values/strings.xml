@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FitnessApp</string>
+    <string name="text">Login Form</string>
+    <string name="edtname">Enter Your Name</string>
+    <string name="edtemail">Enter Your Email</string>
+    <string name="SubBtn">Login</string>
+    <string name="hint_height">Enter a height in Cm</string>
+    <string name="hint_weight">Enter a weight in Kg</string>
+    <string name="text_bmi">BMI Calculator</string>
+    <string name="logo1">Fit</string>
+    <string name="logo2">Me</string>
+    <string name="meditext">Therapy</string>
+    <string name="bmitext">BMI</string>
+    <string name="tipstext">Diet</string>
+    <string name="trainertext">Trainer</string>
+    <string name="medi">Meditation</string>
+
+</resources>

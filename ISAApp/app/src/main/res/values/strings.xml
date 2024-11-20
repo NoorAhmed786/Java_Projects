@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ISAApp</string>
+    <string name="from_title">Student Form</string>
+    <string name="name">Enter your Name </string>
+    <string name="email">Enter your Email</string>
+    <string name="semester">Enter your Semester</string>
+    <string name="submit">Create</string>
+</resources>

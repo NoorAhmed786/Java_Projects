@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/create"
+        android:title="create"
+        android:icon="@drawable/baseline_create_24"/>
+
+    <item
+        android:title="Update"
+        android:id="@+id/update"
+        android:icon="@drawable/baseline_update_24"
+        />
+
+    <item
+        android:title="Read"
+        android:id="@+id/read"
+        android:icon="@drawable/baseline_mark_as_unread_24"
+        />
+
+    <item
+        android:title="delete"
+        android:id="@+id/delete"
+        android:icon="@drawable/baseline_delete_24"/>
+
+</menu>

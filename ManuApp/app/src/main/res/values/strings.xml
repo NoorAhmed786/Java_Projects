@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ManuApp</string>
+    <string name="profile">Profile</string>
+    <string name="activity_main">Back To Main Activity</string>
+    <string name="person_name">Name : Ahad Ali</string>
+    <string name="person_address">Address : Karachi</string>
+    <string name="person_email">Email : ahad@gmail.com</string>
+</resources>

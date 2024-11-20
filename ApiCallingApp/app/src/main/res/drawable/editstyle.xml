@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background image layer -->
+    <!--    <item>-->
+    <!--        <bitmap-->
+    <!--            android:src="@drawable/wt"-->
+    <!--            android:gravity="center" /> &lt;!&ndash; Align image &ndash;&gt;-->
+    <!--    </item>-->
+
+    <!-- Shape to clip the image into rounded corners and add a border -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#009688"/>
+            <!-- Set rounded corners -->
+            <corners android:radius="25dp" /> <!-- Corner radius -->
+
+            <!-- Border definition -->
+            <stroke
+                android:width="2dp"
+                android:color="#EBF4F3" /> <!-- Border color (orange) -->
+        </shape>
+    </item>
+
+</layer-list>

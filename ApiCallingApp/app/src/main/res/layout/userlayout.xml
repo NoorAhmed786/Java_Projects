@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        app:cardBackgroundColor="#078E81"
+        app:cardElevation="15dp"
+        android:layout_marginTop="80dp"
+        app:cardUseCompatPadding="true"
+        >
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image"
+                     android:layout_width="100dp"
+                       android:layout_height="100dp"
+                    android:src="@drawable/userprofile"
+                       app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp"/>
+
+
+          <GridLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:columnCount="2">
+              <!-- User Information -->
+              <LinearLayout
+                  android:layout_width="wrap_content"
+                  android:layout_columnWeight="1"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp"
+                  android:layout_gravity="center"
+                  android:orientation="vertical">
+                  <TextView
+                      android:id="@+id/tv_user_title"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="User Info"
+                      android:textColor="@color/white"
+                      android:textStyle="bold"
+                      android:textSize="18sp" />
+
+                  <TextView
+                      android:id="@+id/tv_user_name"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/white"
+
+                      android:text="Name: " />
+
+                  <TextView
+                      android:id="@+id/tv_user_username"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/white"
+
+                      android:text="Username: " />
+
+                  <TextView
+                      android:id="@+id/tv_user_email"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/white"
+
+                      android:text="Email: " />
+
+                  <TextView
+                      android:id="@+id/tv_user_phone"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/white"
+
+                      android:text="Phone: " />
+
+                  <TextView
+                      android:id="@+id/tv_user_website"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/white"
+
+                      android:text="Website: " />
+
+                  <!-- Address Information -->
+                  <TextView
+                      android:id="@+id/tv_address_title"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Address Info"
+                      android:textColor="@color/white"
+
+                      android:textStyle="bold"
+                      android:textSize="18sp"
+                      android:layout_marginTop="16dp" />
+
+                  <TextView
+                      android:id="@+id/tv_address_street"
+                      android:layout_width="wrap_content"
+                      android:textColor="@color/white"
+
+                      android:layout_height="wrap_content"
+                      android:text="Street: " />
+
+                  <TextView
+                      android:id="@+id/tv_address_suite"
+                      android:textColor="@color/white"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Suite: " />
+
+                  <TextView
+                      android:id="@+id/tv_address_city"
+                      android:textColor="@color/white"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="City: " />
+
+                  <TextView
+                      android:id="@+id/tv_address_zipcode"
+                      android:textColor="@color/white"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Zipcode: " />
+
+
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="wrap_content"
+                  android:layout_columnWeight="1"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:layout_marginTop="-75dp"
+                  android:orientation="vertical">
+                  <!-- Geo Location Information -->
+                  <TextView
+                      android:id="@+id/tv_geo_title"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/white"
+
+                      android:text="Geo Info"
+                      android:textStyle="bold"
+                      android:textSize="18sp"
+                      android:layout_marginTop="16dp" />
+
+                  <TextView
+                      android:textColor="@color/white"
+                      android:id="@+id/tv_geo_lat"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Latitude: " />
+
+                  <TextView
+                      android:id="@+id/tv_geo_lng"
+                      android:layout_width="wrap_content"
+                      android:textColor="@color/white"
+                      android:layout_height="wrap_content"
+                      android:text="Longitude: " />
+
+                  <!-- Company Information -->
+                  <TextView
+                      android:id="@+id/tv_company_title"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Company Info"
+                      android:textStyle="bold"
+                      android:textSize="18sp"
+                      android:textColor="@color/white"
+
+                      android:layout_marginTop="16dp" />
+
+                  <TextView
+                      android:id="@+id/tv_company_name"
+                      android:layout_width="wrap_content"
+                      android:textColor="@color/white"
+                      android:layout_height="wrap_content"
+                      android:text="Company Name: " />
+
+                  <TextView
+                      android:id="@+id/tv_company_catchPhrase"
+                      android:textColor="@color/white"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Catchphrase: " />
+
+                  <TextView
+                      android:textColor="@color/white"
+                      android:id="@+id/tv_company_bs"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Business Strategy: " />
+
+
+              </LinearLayout>
+
+
+          </GridLayout>
+
+
+            </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

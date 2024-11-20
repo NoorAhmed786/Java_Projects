@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Craete"
+        android:icon="@drawable/ic_launcher_background"
+        android:id="@+id/create"/>
+    <item
+        android:title="Read"
+        android:icon="@drawable/ic_launcher_background"
+        android:id="@+id/Read"/>
+    <item
+        android:title="Delete"
+        android:icon="@drawable/ic_launcher_background"
+        android:id="@+id/delete"/>
+    <item
+        android:title="Update"
+        android:icon="@drawable/ic_launcher_background"
+        android:id="@+id/Update"/>
+
+</menu>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "196717261871",
+    "project_id": "quickreportdata",
+    "storage_bucket": "quickreportdata.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196717261871:android:76bd574619f4fd75a882da",
+        "android_client_info": {
+          "package_name": "com.example.quickreport"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC97psk56Bjk1ifeshwyPxLS8tCoRLvP7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

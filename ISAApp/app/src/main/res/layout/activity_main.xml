@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/from_title"
+        android:textSize="20sp"
+        android:background="#10E119"
+        android:textColor="#0E0E0E"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ems="12"
+            android:id="@+id/edtname"
+            android:hint="@string/name"
+            android:inputType="text"/>
+
+        <EditText
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="12"
+            android:id="@+id/edtemail"
+            android:hint="@string/email"
+            android:inputType="text"/>
+
+        <EditText
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="12"
+            android:id="@+id/edtsemester"
+            android:hint="@string/semester"
+            android:inputType="text"/>
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="12"
+            android:layout_gravity="center"
+            android:text="@string/submit"
+            android:textStyle="bold"
+            android:id="@+id/btnsubmit"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
